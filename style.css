@@ -65,47 +65,52 @@ header.shadow.logo{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 0 0%;
+    padding: 0 5%;
 }
 .logo{
-    font-size: 2.5rem;
-    font-weight: 800;
-    color:  hsl(180, 92%, 45%);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color:  black;
 
 }
 .logo span{
-    color: hsl(180, 92%, 45%);
+    color: black;
 
 }
 .login{
     padding: 8px 14px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     border-radius:4px;
-    background:  hsl(180, 92%, 45%);
-    color: var(--bg-color);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: #0E2431;
 
 
 }
 .login:hover{
 background: hsl(199, 89%, 46%);
 transition: .5s;
+color: black;
 
 }
 .home{
     width: 100%;
     min-height: 440px;
-    background: url("Media/images (20).jpeg");
+    background: url("Media/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
     display: grid;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     
 
 }
 .home-text{
-    color:  hsl(199, 89%, 46%);
+    color:  black;
     text-align: center;
 }
 .home-title{
