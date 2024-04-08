@@ -117,3 +117,42 @@ color: black;
     font-size: 3.7rem;
 
 }
+/*latest blog section*/
+.latest .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .latest .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
+  .latest .boxes .box:hover{
+    background: #0E2431;
+    color: #fff;
+  }
+  .latest .boxes .box:hover .topic,
+  .latest .boxes .box:hover p{
+    color: #0E2431;
+    transition: all 0.3s ease;
+  }
+  .latest .boxes .box:hover .topic,
+  .latest .boxes .box:hover p{
+    color: #fff;
+  }
+  .topic{
+    text-align: center;
+    font-weight: 700;
+  }
+  .title{
+    font-weight: 700;
+    text-align: center;
+    font-size: large;
+
+  }
