@@ -104,21 +104,16 @@ color: black;
 .home{
     width: 100%;
     min-height: 440px;
-    background: url("Media/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg");
     display: grid;
     justify-content: center;
+    background: url("/Media/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg");
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    
     
 
 }
-.home-text{
-    color:  black;
+.title{
     text-align: center;
-}
-.home-title{
-    font-size: 3.7rem;
-
 }
